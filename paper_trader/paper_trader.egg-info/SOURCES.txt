@@ -1,0 +1,8 @@
+pyproject.toml
+paper_trader/__init__.py
+paper_trader/config.py
+paper_trader.egg-info/PKG-INFO
+paper_trader.egg-info/SOURCES.txt
+paper_trader.egg-info/dependency_links.txt
+paper_trader.egg-info/top_level.txt
+tests/test_paper_engine.py
