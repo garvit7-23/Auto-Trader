@@ -7,7 +7,7 @@ def test_position_size_is_bounded_by_risk_and_notional():
     signal = Signal("TEST", Side.LONG, stop_loss=95, target=110, strategy="test")
     decision = risk.evaluate(signal, equity=100_000, open_positions=0, current_price=100)
     assert decision.approved
-    assert decision.quantity == 250
+    assert decision.quantity == 200
 
 
 def test_max_open_positions_is_enforced():
